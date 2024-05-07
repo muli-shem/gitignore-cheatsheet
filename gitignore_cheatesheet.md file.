@@ -1,0 +1,7 @@
+| Rule              | Description                                                | Example        |
+|-------------------|------------------------------------------------------------|----------------|
+| `filename`        | Ignore a specific file named "filename".                   | `config.txt`   |
+| `*.ext`           | Ignore all files with the extension ".ext".                | `*.log`        |
+| `directory/`      | Ignore all files and directories within "directory".       | `temp/`        |
+| `temp*`           | Ignore all files and directories starting with "temp".     | `temp*`        |
+| `!important.txt`  | Exclude "important.txt" from being ignored.                | `!important.txt` |
